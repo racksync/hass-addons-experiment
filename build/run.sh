@@ -11,5 +11,3 @@ set +u
 
 echo "Hello world!"
 
-echo $name
-echo $host
