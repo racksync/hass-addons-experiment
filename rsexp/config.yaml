@@ -1,0 +1,27 @@
+version: 0.1a
+slug: racksync-experiment
+name: Experiment Addon
+description: Just an experiment & test purpose
+url: https://github.com/racksync/hass-addons-experiment
+codenotary: jack@racksync.com
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: system
+hassio_api: false
+boot: auto
+host_network: true
+apparmor: false
+map: 
+  - config:ro
+  - ssl:ro
+options:
+  name: ""
+  host: ""
+schema:
+  name: str?
+  host: str?
+
