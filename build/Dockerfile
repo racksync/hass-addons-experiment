@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 # Initialize
 RUN \
-apk add --no-cahce python3
+apk add --no-cache python3
 
 # Copy data for add-on
 COPY run.sh /
